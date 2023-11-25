@@ -1,0 +1,27 @@
+.top-navbar {
+    z-index: 2;
+    position: absolute;
+
+    * {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    color: white;
+    font-family: 'Europa-Bold',
+    sans-serif;
+}
+
+.top-navbar button,
+h3,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.category-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Europa-bold';
+}

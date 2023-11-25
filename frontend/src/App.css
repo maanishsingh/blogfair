@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Europa-Bold';
+  src: url('./assets/fonts/europa-bold-webfont.woff'),
+    url('./assets/fonts/europa-bold-webfont.woff2');
+  font-weight: bold;
+  font-weight: normal;
+}

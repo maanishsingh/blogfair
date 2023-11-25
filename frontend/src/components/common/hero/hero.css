@@ -1,0 +1,20 @@
+.hero {
+    position: relative;
+    background: url('../../../assets/images/cover.jpeg') no-repeat center/cover;
+
+    flex-shrink: 0;
+    height: 50vh;
+    z-index: 0;
+
+    &::before {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(79, 77, 77, 0.5);
+        /* Adjust the color and opacity as needed */
+    }
+}
